@@ -20,7 +20,7 @@ if(isset($_POST['register'])){
 ?>
 
 <!-- ده كود الفورم اللي كان ناقص -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Register</title>
@@ -35,4 +35,4 @@ if(isset($_POST['register'])){
     <button type="submit" name="register">Register</button>
 </form>
 </body>
-</html>
+</html> -->
