@@ -1,7 +1,6 @@
 <?php
-require "connect.php"; // ده بيطبع Connection successful
+require "connect.php"; 
 
-// كود الحفظ لما تدوسي الزرار
 if(isset($_POST['register'])){
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
