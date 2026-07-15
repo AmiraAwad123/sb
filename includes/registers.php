@@ -10,11 +10,11 @@ if(isset($_POST['register'])){
     $sql = "INSERT INTO sbtask (firstname, lastname, email, password) 
             VALUES ('$first_name', '$last_name', '$email', '$password')";
     
-    if($conn->query($sql) === TRUE){
-        echo "<h3 style='color:green'>تم التسجيل بنجاح!</h3>";
-    } else {
-        echo "Error: " . $conn->error;
-    }
+    // if($conn->query($sql) === TRUE){
+    //     echo "<h3 style='color:green'>تم التسجيل بنجاح!</h3>";
+    // } else {
+    //     echo "Error: " . $conn->error;
+    // }
 }
 ?>
 

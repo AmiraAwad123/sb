@@ -2,6 +2,7 @@
 <?php
 include "includes/dashboard.php";
 include "includes/headers.php";
+include "includes/registers.php";
 ?>
 <body id="page-top">
 
